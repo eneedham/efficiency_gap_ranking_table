@@ -77,7 +77,7 @@ gap_rankings_table <-  datatable((table_dat),
   formatStyle('Party_Advantage',color = '#FFF')
 
 #save the widget as an html page
-saveWidget(gap_rankings_table, "gap_rankings_table.html", selfcontained = FALSE, libdir = "src")
+saveWidget(gap_rankings_table, "index.html", selfcontained = FALSE, libdir = "src")
 
 # Bar Graph ---------------------------------------------------------------
 
